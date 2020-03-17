@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jacob Heglund's Webpage"
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Jacob Heglund"
 description              : &description "AI Enthusiast"
