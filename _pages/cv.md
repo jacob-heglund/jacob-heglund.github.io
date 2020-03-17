@@ -9,3 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
+My resume may be downloaded [here](\files\resume.pdf)
