@@ -33,7 +33,7 @@ You can directly SSH using certain text editors, allowing use of a familiar text
 
 1. Add a new SSH connection by typing `ctrl+shift+p` and searching Remote-SSH: Add New SSH Host.  Enter the same information as with a normal SSH connection
 
-        $ssh username_on_remote_machine@remote_machine_ip_address
+        $ ssh username_on_remote_machine@remote_machine_ip_address
 
 1. Type `ctrl+shift+p` and search Remote-SSH: Connect to Host, then select the desired SSH connection
     - If successful, a new window will appear which is directly connected to the remote machine
@@ -44,11 +44,12 @@ You can directly SSH using certain text editors, allowing use of a familiar text
 
 1. Start a Jupyter notebook using a terminal SSHed into the remote machine
 
-        $jupyter notebook --no-browser --port=8080
+        $ jupyter notebook --no-browser --port=8080
+
     - note that the choice of port 8080 is arbitrary
 
 1. Port forward to your local machine using
 
-        $ssh -N -L 8080:localhost:8080 username_on_remote_machine@remote_machine_ip_address
+        $ ssh -N -L 8080:localhost:8080 username_on_remote_machine@remote_machine_ip_address
 
 1. You can now copy the jupyter notebook URL (make sure to include the token) to a browser on your local machine, and it will open the Jupyter notebook running on the remote machine
