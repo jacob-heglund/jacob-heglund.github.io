@@ -1,6 +1,6 @@
 ---
 title: 'Working Remotely'
-date: 2020-03-22
+date: 2020-03-24
 permalink: /posts/2020/03/working-remotely/
 tags:
   - research
@@ -46,10 +46,17 @@ You can directly SSH using certain text editors, allowing use of a familiar text
 
         $ jupyter notebook --no-browser --port=8080
 
-    - note that the choice of port 8080 is arbitrary
+    - Note that the choice of port 8080 is arbitrary
 
 1. Port forward to your local machine using
 
         $ ssh -N -L 8080:localhost:8080 username_on_remote_machine@remote_machine_ip_address
+
+    - The generic notation for this command is
+
+            $ ssh -L YYY:localhost:ZZZ
+
+        - Where `YYY = local port` and `ZZZ = remote port`. The local port is the port address you would type into the browser on the local machine.
+
 
 1. You can now copy the jupyter notebook URL (make sure to include the token) to a browser on your local machine, and it will open the Jupyter notebook running on the remote machine
