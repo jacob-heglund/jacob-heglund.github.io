@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Jacob's Homepage"
+title: "Jacob Heglund"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -10,7 +10,7 @@ redirect_from:
 
 ## About
 
-I am currently a Graduate Student in the [Tran Research Group](https://sites.google.com/illinois.edu/tran-aerospace/home) at the University of Illinois Urbana-Champaign. We are studying applications of Machine Learning for improving autonomous systems and transportation infrastructure, as well as making contributions in algorithmic development.
+I am currently a PhD Student in the [Tran Research Group](https://sites.google.com/illinois.edu/tran-aerospace/home) at the University of Illinois Urbana-Champaign. We are studying applications of Machine Learning for improving autonomous systems and transportation infrastructure, as well as making contributions in algorithmic development.
 
 ## News
 
